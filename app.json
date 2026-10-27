@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Smart Staff",
+    "slug": "smart-staff-request",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#F5F7FB" },
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Smart Staff to use the microphone for voice input.",
+          "speechRecognitionPermission": "Allow Smart Staff to recognize your spoken staff request."
+        }
+      ]
+    ],
+    "android": { "package": "com.smartstaff.request" },
+    "ios": { "bundleIdentifier": "com.smartstaff.request" }
+  }
+}
